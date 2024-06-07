@@ -1,0 +1,32 @@
+<div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th colspan="8" class="text-center">Prescription</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Doctor ID</th>
+          <th>Date</th>
+          <th>Tablet Name</th>
+          <th>Tablet Count</th>
+          <th>Morning</th>
+          <th>Afternoon</th>
+          <th>Night</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let sug of pre;let i = index">
+          <td>{{i+1}}</td>
+          <td>{{sug.doctorid}}</td>
+          <td>{{sug.date}}</td>
+          <td>{{sug.tabletname}}</td>
+          <td>{{sug.tabletcount}}</td>
+          <td>{{sug.morning ? 1 : 0}}</td>
+            <td>{{sug.afternoon ? 1 : 0}}</td>
+            <td>{{sug.night ? 1 : 0}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

@@ -1,0 +1,29 @@
+<app-logoutnavbar></app-logoutnavbar>
+  <div>
+    <form  (submit)="onSubmit()">
+  <div class="form-group">
+      <label for="Email1">Name</label>
+      <input type="text" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" [(ngModel)]="doc.name" name="email">
+    </div>
+<div class="form-group">
+  <label for="Email1">Email address</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="doc.emailId" name="email">
+</div>
+<div class="form-group">
+  <label for="Password">Password</label>
+  <input type="password" class="form-control" id="exampleInputPassword" [(ngModel)]="doc.password"  name="password">
+</div>
+  <div class="form-group">
+  <label for="phoneno">Phone Number</label>
+  <input type="tel" class="form-control" id="exampleInputphoneno" [(ngModel)]="doc.mobile_number" name="phoneno">
+  </div>
+  <div class="form-group">
+    <label for="specialization">Specialization</label>
+    <select (change)="selectSpec($event)" class="form-control" name="specialization">
+      <option value="">Choose your Specialization</option>
+      <option *ngFor="let s of spec" [value]="s.specialty">{{s.specialty}}</option>
+    </select>
+  </div>
+  <button (click)="onSubmit()" type="reset" routerLink="/" class="btn btn-primary" name="create">Register</button>
+</form>
+</div>

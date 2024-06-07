@@ -1,0 +1,30 @@
+.btn-gradient-green {
+  background: linear-gradient(to right, #2cbf74, #27a873);
+  color: white;
+}
+
+.container{
+  align-items: center;
+  margin-top: 5%;
+}
+.bg-image {
+  background: url('./../../assets/images/imagerole.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.patient-img{
+  background: url('./../../assets/images/patient.jpg'); 
+}
+
+.card{
+  height: 100%;
+}
+
+
+
+

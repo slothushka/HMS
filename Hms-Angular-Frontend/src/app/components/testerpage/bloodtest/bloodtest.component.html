@@ -1,0 +1,45 @@
+<!-- bloodpressure.component.html -->
+<div class="container">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="userId">User ID:</label>
+        <input formControlName="userid" type="text" id="userId" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="age">Age:</label>
+        <input formControlName="age" type="number" id="age" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="gender">Gender:</label>
+        <select formControlName="gender" id="gender" class="form-control">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input formControlName="date" type="date" id="date" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="hemoglobin">Hemoglobin:</label>
+        <input formControlName="hemoglobin" type="number" id="hemoglobin" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="rbc">RBC:</label>
+        <input formControlName="rbc" type="number" id="rbc" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="wbc">WBC:</label>
+        <input formControlName="wbc" type="number" id="wbc" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="platelet">Platelete:</label>
+        <input formControlName="platelet" type="number" id="platelet" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="calcium">Calcium:</label>
+        <input formControlName="calcium" type="number" id="calcium" class="form-control">
+      </div>
+      <button type="submit"  class="btn btn-primary">Submit</button>
+    </form>
+  </div>

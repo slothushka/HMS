@@ -1,0 +1,33 @@
+<div class="image">
+  <div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th colspan="8" class="text-center">Sugar Test Report</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Tester ID</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Date</th>
+          <th>Fasting Test (mmol/l)</th>
+          <th>Glucose Test (mmol/l)</th>
+          <th>AIC Test</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let sug of sugs">
+          <td>{{sug.userid}}</td>
+          <td>{{sug.testid}}</td>
+          <td>{{sug.age}}</td>
+          <td>{{sug.gender}}</td>
+          <td>{{sug.date }}</td>
+          <td>{{sug.fastingtest}}</td>
+          <td>{{sug.gulcosetest}}</td>
+          <td>{{sug.aictest}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ </div> 

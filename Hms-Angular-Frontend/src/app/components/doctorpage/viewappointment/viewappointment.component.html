@@ -1,0 +1,41 @@
+
+<app-logoutnavbar></app-logoutnavbar>
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Patient Name</th>
+              <th>Booked Date</th>
+              <th>Booked Time</th>
+              <th>Accept</th>
+              <th>Decline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let patient of patDetails; let i = index">
+              <td>{{ i+1 }}</td>
+                <td>{{ patient.username }}</td>
+                <td>{{ patient.date }}</td>
+                <td>{{ patient.time }}</td>
+                <td>
+                  <button id="accept-btn" 
+                          (click)="accept(patient.aptid); hideButtons(patient.aptid)" 
+                          class="btn btn-primary" 
+                          *ngIf="!isButtonHidden[patient.aptid]">Accept
+                  </button>
+                </td>
+                <td>
+                  <button (click)="decline(patient.aptid); hideButtons(patient.aptid)" 
+                          class="btn btn-danger" 
+                          *ngIf="!isButtonHidden[patient.aptid]">Decline
+                  </button>
+                </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>

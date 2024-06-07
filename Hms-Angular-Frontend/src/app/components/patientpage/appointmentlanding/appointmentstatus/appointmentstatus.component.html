@@ -1,0 +1,10 @@
+
+
+  <div class="result">
+    <h1 class="header">Appointments Results</h1>
+    <table>
+      <tr *ngFor="let s of appointmentResult; let i = index">
+        <td [ngClass]="{'only-one': appointmentResult.length === 1}">{{s}}</td>
+      </tr>
+    </table>
+  </div>

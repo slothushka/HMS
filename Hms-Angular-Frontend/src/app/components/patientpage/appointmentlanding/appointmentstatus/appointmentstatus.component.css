@@ -1,0 +1,35 @@
+
+
+  .result {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  
+  .result table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .result td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .result td:first-child {
+    border-top-left-radius: 5px;
+  }
+  
+  .result td:last-child {
+    border-top-right-radius: 5px;
+  }
+  
+  .result tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+  }
+  
+  .result tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+  }
