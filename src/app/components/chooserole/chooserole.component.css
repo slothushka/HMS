@@ -1,0 +1,55 @@
+.btn-gradient-green {
+  background: #59beed; 
+  color: white;
+  padding: 0.5rem 1rem; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-gradient-green:hover {
+  background:#59beed; /* Slightly darker shade for hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.container{
+  align-items: center;
+  margin-top: 2%;
+}
+.bg-image {
+  background: url('./../../assets/images/chose.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.patient-img{
+  background: url('./../../assets/images/patient.jpg'); 
+}
+.card {
+  height: 100%;
+  background: linear-gradient(to top, #0f4a78, #59beed,#3a8bc4 );
+  color: white;
+  border-radius: 10px; 
+  transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.card-text{
+  font-size: small;
+}
+
+.card-title{
+  color: #1a384d;
+}
+
+

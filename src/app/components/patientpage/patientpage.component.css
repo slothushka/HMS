@@ -1,0 +1,67 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .card {
+    width: 300px;
+    margin: 0 1rem;
+    border: 1px solid rgb(6, 11, 116);
+    padding: 1rem;
+    transition: transform 0.2s ease-out;
+    text-align: center;
+  
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-title {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #1a384d;
+  
+  }
+  
+  .btn {
+    width: 100%;
+    align-items: center;
+    background: #59beed; 
+    color: white;
+    padding: 0.5rem 1rem; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .image{
+    background: url('./../../assets/images/chose.jpg') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    align-items: center;
+  }
+  .card {
+    height: 75%;
+    background: linear-gradient(to top, #0f4a78, #59beed,#3a8bc4 );
+    color: white;
+    border-radius: 10px; 
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.3s ease;
+    padding: 1rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    align-items: center;
+  }
+
+  .btn:hover {
+    background: #146184; 
+     /* Slightly darker shade for hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
