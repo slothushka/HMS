@@ -1,0 +1,37 @@
+<div class="image">
+<div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th colspan="8" class="text-center">Blood Test Report</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Tester ID</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Date</th>
+          <th>Hemoglobin</th>
+          <th>RBC</th>
+          <th>WBC</th>
+          <th>Platelete</th>
+          <th>Calcium</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let bd of blds">
+          <td>{{bd.userid}}</td>
+          <td>{{bd.testid}}</td>
+          <td>{{bd.age}}</td>
+          <td>{{bd.gender}}</td>
+          <td>{{bd.date }}</td>
+          <td>{{bd.hemoglobin}}</td>
+          <td>{{bd.rbc}}</td>
+          <td>{{bd.wbc}}</td>
+          <td>{{bd.platelet}}</td>
+          <td>{{bd.calcium}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ </div> 

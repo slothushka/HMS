@@ -1,0 +1,16 @@
+<div class="bg-image" >
+<div class="container">
+    <h2>Login</h2>
+    <form (ngSubmit)="onSubmit($event)">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" [(ngModel)]="ad.emailId" name="email" required> 
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" [(ngModel)]="ad.password" name="password" required> 
+      </div>
+      <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+.container {
+    padding: 2rem;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .btn-primary {
+    margin-top: 1rem;
+  }
+
+  .image {
+    background-image: url(https://cdn.create.vista.com/api/media/small/477539428/stock-photo-doctor-writing-prescriptions-patients-medical-facility);
+    background-repeat: no-repeat;
+  /* background-position: center center; */
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+ 

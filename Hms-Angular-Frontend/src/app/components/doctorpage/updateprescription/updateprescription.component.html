@@ -1,0 +1,25 @@
+<app-logoutnavbar></app-logoutnavbar>
+
+<body>
+	<div class="form-container">
+		<form (ngSubmit)="onSubmit()">
+			<label for="doctorid">Doctor ID:</label>
+			<input type="text" id="doctorid" [(ngModel)]="upd.doctorid" name="doctorid"><br><br>
+			<label for="userid">Enter User ID:</label>
+			<input type="text" id="userid" [(ngModel)]="upd.userid" name="userid"><br><br>
+			<label for="date">Date:</label>
+			<input type="date" id="date" [(ngModel)]="upd.date" name="date"><br><br>
+			<label for="tabletname">Tablets Name:</label>
+			<input type="text" id="tabletname" [(ngModel)]="upd.tabletname" name="tabletname"><br><br>
+			<label for="tabletcount">Tablet Count:</label>
+			<input type="number" id="tabletcount" [(ngModel)]="upd.tabletcount" name="tabletcount"><br><br>
+			<label for="morning">Morning:</label>
+			<input type="boolean" id="morning" [(ngModel)]="upd.morning" name="morning"><br><br>
+			<label for="afternoon">Afternoon:</label>
+			<input type="boolean" id="afternoon" [(ngModel)]="upd.afternoon" name="afternoon"><br><br>
+			<label for="night">Night:</label>
+			<input type="boolean" id="night" [(ngModel)]="upd.night" placeholder="  " name="night"><br><br>
+			<input type="submit" value="Submit" class="submit-btn">
+		</form>
+	</div>
+</body>

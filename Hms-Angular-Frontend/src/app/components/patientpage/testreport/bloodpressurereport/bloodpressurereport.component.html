@@ -1,0 +1,35 @@
+<div class="image">
+<div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th colspan="8" class="text-center">Blood Pressure Report</th>
+        </tr>
+        <tr>
+          <th>ID</th>
+          <th>Tester ID</th>
+          <th>Age</th>
+          <th>Gender</th>
+          <th>Date</th>
+          <th>systolicBP</th>
+          <th>S_range</th>
+          <th>DiastolicBP</th>
+          <th>D_range</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let bd of bps">
+          <td>{{bd.userid}}</td>
+          <td>{{bd.testid}}</td>
+          <td>{{bd.age}}</td>
+          <td>{{bd.gender}}</td>
+          <td>{{bd.date }}</td>
+          <td>{{bd.systolicBP}}</td>
+          <td>{{bd.s_range}}</td>
+          <td>{{bd.diastolicBP}}</td>
+          <td>{{bd.d_range}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+ </div> 
