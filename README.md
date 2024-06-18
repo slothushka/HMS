@@ -1,3 +1,49 @@
+**Hospital Management System**
+
+*Overview*
+The Hospital Management System is a web-based application designed to streamline the management of hospital operations. This system supports four roles: Pathologist, Admin, Doctor, and Patient. Each role has specific functionalities to manage various aspects of the hospital's operations efficiently.The project has been developed using SpringBoot, Java, Angular, MYSQL.
+
+**Features**
+
+1. Pathologist
+Post medical reports for patients, including:
+Sugar Report
+Blood Pressure Report
+Blood Test Report
+
+2. Doctor
+Update prescriptions for patients.
+Accept or decline appointment requests from patients.
+
+3. Admin
+Register new doctors.
+Assign specializations to doctors.
+
+4. Patient
+Book appointments based on the specialization of doctors.
+View reports posted by pathologists.
+Check the status of appointments (accepted or rejected by doctors).
+View the list of prescriptions provided by doctors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # HmsAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
