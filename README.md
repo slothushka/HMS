@@ -7,31 +7,27 @@ The Hospital Management System is a web-based application designed to streamline
 
 1. Pathologist
 Post medical reports for patients, including:
-Sugar Report
-Blood Pressure Report
-Blood Test Report
+- Sugar Report
+- Blood Pressure Report
+- Blood Test Report
 
-2. Doctor
-Update prescriptions for patients.
-Accept or decline appointment requests from patients.
+3. Doctor
+- Update prescriptions for patients.
+- Accept or decline appointment requests from patients.
 
-3. Admin
-Register new doctors.
-Assign specializations to doctors.
+4. Admin
+- Register new doctors.
+- Assign specializations to doctors.
 
-4. Patient
-Book appointments based on the specialization of doctors.
-View reports posted by pathologists.
-Check the status of appointments (accepted or rejected by doctors).
-View the list of prescriptions provided by doctors.
-
-
+5. Patient
+- Book appointments based on the specialization of doctors.
+- View reports posted by pathologists.
+- Check the status of appointments (accepted or rejected by doctors).
+- View the list of prescriptions provided by doctors.
 
 
 
-
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
